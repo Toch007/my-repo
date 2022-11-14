@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>The Chorus Website</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <section class="header">
+        <nav>
+            <img src="images/choruss.png" class="main-logo">
+            <div class="nav-list" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="#home">HOME</a></li>
+                    <li><a href="#about">ABOUT</a></li>
+                    <li><a href="#concerts">EVENTS</a></li>
+                    <li><a href="#donate">DONATE</a></li>
+                    <li><a href="#members">MEMBERS</a></li>
+                    <li><a href="#gallery">GALLERY</a>
+                    <li><a href="#more">MORE</a></li>
+                    <li><a href="#contact">CONTACT</a>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+    <div class="home-text">
+        <h1>We are</h1>
+        <img class="logo" src="images/choruss.png">
+        <p class="anime">Setting a standard for choral music in Nigeria and beyond.</p>
+        <a href="" class="click-here">Click to know more about us</a>
+    </div>
+    </section>
+
+    <!-------About------>
+    <h1>The Chorus?</h1>
+    <section class="about">
+        
+        <div class="questions">
+            <div>
+                <img src="images/FAQs-who-what-where-when.jpg" alt="image of Who, what, when, how">
+            </div>
+            
+        <h2>I can imagine the thoughts going through your mind, 
+            so many questions you wish to ask, concerning <br> <strong>The Chorus.</strong> <br> <br>Keep scrolling to learn more.</h2>
+            <span><img src="images/340842c5039e1e772b5d059bc42bcbb7.svg" alt="finger pointing downwards"></span>
+        </div>
+        
+        <div class="brief-intro">
+            <div class="shadow">
+                <img src="images/groupp.jpg" alt="The Chorus group picture">
+            </div>
+            <h2>
+                The chorus is simply a group of Choral Music lovers who decided 
+                to come together to take Choral Music in Abuja and Nigeria to a 
+                whole new level. <br>We are not your regular singers and musicians, 
+                we are an entirely new breed of talents from different parts of 
+                the country, from various backgrounds and works of life. <br> <br> Here are 
+                some of the reasons why we stand out, or should I say, are "Outstanding": 
+            </h2>
+            
+        </div>
+        
+        <div class="attributes-container">
+
+        <div class="attributes">
+            <img src="images/istockphoto-98131669-612x612.jpg" alt="silhoute singer">
+                <h3>Music is a beauty in itself and making beautiful
+                    music is a serious business, thats where our 
+                    professionalism comes in. <br> We make our music 
+                    professonal without eliminating the beauty and 
+                    message that lies within.
+                </h3>
+        </div>
+            
+        <div class="attributes more">
+                <img src="images/127476857-choir-guide-music-vector-illustration.jpg" alt="">
+                <h3>
+                    The Chorus knows how to blend several musical parts and 
+                    have the ability to blend in a balanced 
+                    manner with the integration of four essential elements 
+                    for a good performance namely: Intonation, diction, rhythm and balance. 
+                </h3>
+                <img src="images/images.png" alt="wavy music score">
+        </div>
+
+            <div class="attributes">
+                <img src="images/Composer-cover-articleLarge.webp" alt="">
+                <div>
+                    <h3>
+                        Our performance cuts accross all genres of 
+                        choral music, both foreign and indigenous, and 
+                        accross all music eras.
+                    </h3>
+                </div>
+                
+            </div>
+        </div>
+
+        <h2>To know more about the chorus <a href="">Click here</a></h2>
+    
+    </section>
+    
+    <div class="event-header">
+        <h1>Upcoming Events</h1>
+    </div>
+    <section class="events-hp">
+        
+        <div class="christmas">
+            <h3>A we prepare to celebrate the birth of 
+                our saviour, Jesus Christ, We have prepared
+                some thing to make your season a memorable
+                one. <br>Be a part of our celebration
+        </h3>
+        
+       <div>
+        <img src="images/WhatsApp Image 2022-10-31 at 12.06.04.jpeg" alt="">
+       </div>
+        
+        </div>
+        <h5>In case you missed any of your previous concerts, you 
+            can visit our concert page to catch up!
+        </h5>
+    </section>
+
+  
+    <section class="footer">
+        <h4><a href="#">About Us</a></h4>
+        <p>Follow us on our social media handles</p>
+        <div class="icons">
+            <a href=""><i class="fa fa-facebook"></i></a>
+            <a href=""><i class="fa fa-instagram"></i></a>
+            <a href=""><i class="fa fa-youtube"></i></a>
+            <a href=""><i class="fa fa-twitter"></i></a>
+        </div>
+        <p>© 2022 The Chorus. All rights reserved.</p>
+    </section>
+
+
+    <!------JavaScript for Toggle Menu------>
+    <script>
+
+        var navLinks = document.getElementById("navLinks")
+        function showMenu(){
+            navLinks.style.right = "0";
+        }
+        function hideMenu(){
+            navLinks.style.right = "-200px";
+        }
+
+    </script>
+</body>
